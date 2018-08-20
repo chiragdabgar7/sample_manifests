@@ -1,0 +1,3 @@
+<%- | String $data_file | -%>
+#!/bin/bash
+cp <%= $data_file %> /my_examples
