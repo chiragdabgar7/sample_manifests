@@ -18,3 +18,9 @@ docker::run { 'pbh-nginx101':
   ports		=> ['1000:80'],
   pull_on_start	=> true,
 }
+
+#docker::run { 'mount_test':
+#  image		=> 'pbg-nginx1',
+#  volumes	=> ['/tmp/test:/mnt/data'],
+#  command	=> '/bin/sh -c "echo Hello world >/mnt/data/hello.txt"',
+#}
