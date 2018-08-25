@@ -1,0 +1,3 @@
+<% $facts['netwokering']['interfaces'].each | String $interfaces Hash $attr | { -%>
+interface <%= $interfaces %>;
+<% } -%>
